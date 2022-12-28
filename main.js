@@ -21,6 +21,7 @@ function addRacer(position, points, wins, Driver) {
     racerElement.innerHTML=`
         <div class ="card-body">
  
+            <h1>${Driver.driverId}</h1>
             <h1>${position}</h1>
             <h3>${points}</h3>
             <h4>${wins}</h4>
